@@ -1,1 +1,0 @@
-<div class="paneto" id="#ID#">#DOID#</div>
