@@ -1,0 +1,343 @@
+@import "wacko.css";
+
+body{ padding:0; margin:0; background:#eeeeee; line-height: 130%; }
+img {
+	border-width: 0px;
+	}
+/* Textareas */
+textarea { font-size:100%; font-family: Georgia, Courier New; color:#222222;   line-height: 1.5em;  }
+small { font-size:80% }
+
+label {cursor:pointer; cursor:hand;}
+
+dfn { font-variant: small-caps; letter-spacing: 0.1em; font-style: normal; cursor: help; border-bottom: 1px dotted #000; }
+
+
+/* overrall design */
+.Top { background:#ffffff; font-size:13px; color:#000000; padding:5px 5px 5px 5px; vertical-align:center; font-size:70% }
+.TopLoggedOut { background:#ffcc66; font-size:13px; color:#000000; padding:5px 5px 5px 5px; vertical-align:center; font-size:70% }
+.TopDiv { clear:all; height:1px; background:#000000; margin:0; padding:0 }
+.TopDiv2 { clear:all; height:1px; background:#666666; margin:0; padding:0 }
+.TopRight { float:right; text-align:right; padding:0px; }
+.TopLeft { float:left; text-align:left; color:#444444 }
+.Bookmarks { background:#002080; color:#b5b5ff; padding:2px; font-size:75% }
+
+
+.Bookmarks A:LINK { font-weight: bold; color: #ffffff }
+.Bookmarks A:VISITED { font-weight: bold; color: #b5ffb5 }
+.Bookmarks A:HOVER { font-weight: bold; color: #ffb5b5 }
+
+.Wrapper { margin: 20px 20px 20px 20px }
+.header { color:#444444; }
+.header .Main { color:#999999 }
+.header H1 { margin:0px; padding:0px; color:#000000; font-family:Arial; font-size: 100% }
+.Print { color:#999999; font-size:11px; float:right; }
+
+.Shade, #page { border-left: 1px solid #444444; border-right: 1px solid #444444; }
+
+/* ??? */
+.Shade {  clear:all; background:#ffffff;
+          height:6px; border-top: 1px solid #444444; }
+#page { background:#ffffff; padding:9px 10px 30px 10px; }
+.TextArea { width:100%; height:450px; border: 3px ridge; }
+
+.TabText { padding:1px 5px 1px 5px; font-size:12px; }
+.TabSpace .TabText { padding:5px; }
+.Tab2, .Tab  { float:left; background: #fefbe6;
+                 background-repeat:repeat-x; background-position:bottom;
+                 color:#666666; border-top:1px solid #444444 }
+.TabSelected2, .TabSelected
+               { float:left; background: #ffffff;
+                 background-repeat:repeat-x; background-position:bottom;
+                 color:#666666 }
+.Tab2a       { float:left; background: #ffcfa8;
+                 background-repeat:repeat-x; background-position:bottom;
+                 color:#666666; border-top:1px solid #444444 }
+.TabSelected2a, .Tab2a, .TabSelected2, .Tab2         { float:right; }
+
+.TabSpace { color:#666666; border-top:1px solid #444444; }
+
+#credits {
+  font-size: 11px;
+  color: #AAAAAA;
+  text-align: right;
+  padding:25px 5px 5px 5px
+}
+
+
+/* fonts */
+body, td, p, li, #page { font-family: Georgia, Verdana; font-size:95% }
+.dt { font-family: Verdana; font-size:60% }
+
+/* colors */
+#page { color:#444444 }
+del A:HOVER { color:#cc3300 }
+del A.outerlink:LINK { color:#999999 }
+del A.outerlink:VISITED { color:#999999 }
+del A.outerlink:HOVER { color:#cc3300 }
+
+.error { color: #CC3333; font-weight: bold; }
+.info {
+	background: #F4FBFF;
+	margin: 10px;
+	padding: 10px 10px 10px 40px;
+	border:1px solid #D5D9E6;
+	color: #CC3333; font-weight: bold;
+}
+
+.time{ color:#999999; font-size: 9px; margin:5px 20px;}
+.debug { font-size: 11px; color: #888888;}
+
+#commentsheader, #filesheader, #rateheader {
+	background-color: #eeeeee;
+	padding: 2px 50px;
+}
+
+.comment, .files {
+	background-color: #EEEEEE;
+	padding: 10px 50px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.comment:target {
+	border:2px solid #FF6600;
+	padding:0.5em 0.5em 0.5em 25px;
+}
+
+.commentinfo {
+	color: #AAAAAA;
+}
+/* Change summary */
+.editnote {
+	color: #555555;
+}
+.review {
+	font-weight:bold;
+}
+.commentform, .filesform {
+  background-color: #EEEEEE;
+  padding: 10px 50px;
+  border-top: 1px solid #CCCCCC;
+}
+
+
+/* for include */
+.name { text-align: right; font-size: 10px; }
+.include { background-color: #f8f8f8; padding: 8px; }
+
+fieldset { padding: 10px; }
+.missingpage { border-bottom: 1px dashed orange; }
+
+/* anchors */
+a:link { color: #0020cc; }
+a:visited { color: #8020cc; }
+a:hover { color:#cc3300 }
+a:ACTIVE { color:#ff0000; }
+a.denied:link, a.denied:visited { color: #666666; }
+a.denied:hover { color:#cc3300 }
+
+#credits A:link, #credits A:visited { color: #AAAAAA; }
+#credits A:hover { color:#cc3300 }
+
+.outerlink:link, .outerlink:visited { font-size:90%; font-family:Verdana; color:#000080 }
+.outerlink:hover { color:#cc3300 }
+
+.Top a, .Top a:visited { font-weight:bold; color:#336699 }
+.Tune a, .Tune a:visited { font-weight:normal; color:#336699 }
+.Top a:hover, .Tune a:hover { color:#cc3300 }
+
+.Print a:visited, .TopRight a:link { font-weight:normal; color:#0000ff }
+.TopRight a:visited { font-weight:normal; color:#800080 }
+.TopRight a:hover { color:#cc3300 }
+
+.Tab2a a:visited, .Tab2 a:visited, .Tab a:visited,
+.Tab2a a, .Tab2 a, .Tab a { color:#0000ff; text-decoration:none }
+.Tab2a a:hover, .Tab2 a:hover, .Tab a:hover { color:#cc3300; text-decoration:underline }
+
+a.Search:link, a.Search:visited { color:#0000ff }
+a.Search:hover { color:#cc3300 }
+
+#commentsheader a:link, #commentsheader a:visited { color:#0000ff }
+#commentsheader a:hover { color:#cc3300 }
+
+
+  .upload td { padding: 2px 5px 2px 5px; vertical-align:top }
+  .upload td.dt-,
+  .upload td.file- { white-space:nowrap; font-size: 80%; font-weight:bold; color:#000000 }
+  .upload td.dt-   { padding-right:0 }
+  .upload td.remove-   { padding-right:0 }
+  .upload td.size- { padding-right:0; text-align:right }
+  .upload td.desc- { font-size: 80%; color:#444444; width:100% }
+  .upload td.dt- .dt2-,
+  .upload td.remove- .remove2-,
+  .upload td.size- .size2- { font: 11px Tahoma; color:#666666;  }
+  .upload td.remove- a.remove2-:HOVER,
+  .upload td.remove- a.remove2-:ACTIVE { color:#ff0000 }
+
+.preview {margin-top: .8em; margin-left: 2px; margin-bottom: 2px; margin-right: 2px; padding: 10px; border:red 2px solid;}
+.preview p {color:red; font-weight:bold; margin: -1.5em 0px 10px 0px; padding: 0; border: 0;}
+.preview p span {background:#FFF; padding:0 1px;}
+
+.layout-box {margin-top: .8em; margin-left: 2px; margin-bottom: 2px; margin-right: 2px; padding: 10px; border:#CCCCCC 1px solid;}
+p.layout-box {background: transparent; margin: -1.5em 0px 10px 0px; padding: 0; border: 0;}
+p.layout-box span {background:#FFF; padding:0 1px;}
+
+.buttonsspacer{width:100px;height:1px;}
+
+  /* vseedit toolbar */
+
+#buttons_1 {
+	clear:none;
+	float:left;
+	padding:0 0 0 0;
+}
+
+#buttons_1 li {
+	float:left;
+	padding-right:0.3em;
+	white-space:nowrap;
+	list-style:none outside none;
+}
+
+.toolbar li {
+	background: ButtonFace;
+}
+ .toolbar .btn-, .toolbar  .btn-hover,  .toolbar .btn-active,  .toolbar .btn-pressed {
+  background: ButtonFace;
+  color: ButtonText;
+  border: 1px solid ButtonFace;
+  padding: 1px;  margin: 0px;
+  cursor: pointer; cursor: hand;
+ }
+ .toolbar img {
+  width: 20px;
+  height: 20px;
+ }
+ .toolbar .btn-hover {
+  border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+ }
+ .toolbar .btn-active,  .toolbar .btn-pressed {
+  border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+ }
+ .toolbar .btn-pressed {
+  background: ButtonHighlight;
+ }
+ .toolbar .btn-separator {
+border-left:1px solid buttonshadow;
+border-right:1px solid buttonhighlight;
+height:18px;
+margin:3px;
+padding:0;
+width:0;
+}
+ .edname-w, .edname-r, .edname-s
+            { font: bold 14px Arial; border: 3px solid #D4D0C8; padding: 0 7px; color:#ffffff; vertical-align: middle;}
+ .edname-w  { background: #1E9905; }
+ .edname-r  { background: #2A45D0; }
+ .edname-s  { background: #D08C2A; }
+
+ .autocomplete-inplace
+ {
+   background: ButtonFace;
+   border: 1px solid ButtonShadow;
+   padding: 2px;
+   font: 12px Arial;
+ }
+ .autocomplete-inplace div          { padding: 2px 5px; cursor: pointer; cursor: hand; }
+ .autocomplete-inplace div.ac-over- { color:#ffffff; background: #1E9905; }
+
+
+/* CSS form formater */
+.cssform p {
+	width: 300px;
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 0;
+	padding-left: 155px; /*width of left column containing the label elements*/
+	border-top: 1px dashed gray;
+	height: 1%;
+}
+.cssform label {
+	font-weight: bold;
+	float: left;
+	margin-left: -155px; /*width of left column*/
+	width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+.cssform input[type="text"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 180px;
+}
+.cssform textarea {
+	width: 250px;
+	height: 150px;
+}
+.cssform span.site_count {
+	font-weight: normal;
+	float: left;
+	margin-left: -155px; /*width of left column*/
+	width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+.BewareChangeLang{
+	border: 1px solid #ffee66;
+	width: 400px;
+	background-color: #ffffdd;
+	background-image: url(../../../images/warning.gif);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 10px 10px;
+	margin: 10px;
+	padding: 5px 5px 5px 40px;
+}
+
+/* cssform1 for actions */
+#cssform1 {
+	width:50%;
+	padding:10px;
+	margin:0 auto;
+}
+#cssform1 p {
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 0;
+	padding-left: 20%; /*width of left column containing the label elements*/
+	border-top: 1px dashed gray;
+	height: 1%;
+}
+#cssform1 label {
+	float: left;
+	margin-left: 0px; /*
+	margin-left: -155px; width of left column*/
+	width: 150px;/* width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+#cssform1 input[type="text"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 180px;
+}
+#cssform1 textarea {
+	width: 250px;
+	height: 150px;
+}
+#cssform1 span.site_count {
+	font-weight: normal;
+	float: left;
+	margin-left: 0px; /*
+	margin-left: -155px; width of left column*/
+	width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+/* feed action */
+.feed {
+    overflow:auto;
+}
+.feed .note {
+     font-size: 11px;
+     color: #777;
+}
+.feed .note a {
+     color: #777;
+}
+.feed_element_title {
+	/* We're going to add some space next to the titles so we can fit the 16x16 favicon image. */
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position:0 1px;
+	padding-left:20px;
+}

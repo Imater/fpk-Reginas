@@ -1,0 +1,76 @@
+/*  By ilovecolors.com.ar  *
+  *  http://www.ilovecolors.com.ar/using-cookies-jquery/ 
+  * Перевод для сайта ruseller.com */
+body{
+	height: 100%;
+	width: 100%;
+	font: 0.75em Arial, Helvetica, sans-serif;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+.backilc{ text-align: center; margin-top: 20px; color:#999;}
+a:hover{ color:#d00; }
+#block {
+	margin: 15px auto 0;
+	width: 400px;
+	padding: 10px 5px 15px;
+	clear:both;
+	overflow:hidden;
+	border: 10px solid #eee;
+	text-align:center;
+}
+.h{
+	font: 1.417em Fontin, Georgia, "Times New Roman", Times, serif;
+	padding: 13px 0 10px 5px;
+	color:#666;
+	border-bottom:1px solid #eee;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+.htabs{	overflow:hidden; }
+.htabs h2 a{
+	font:bold 1.167em Anivers, "museo 700","goodpro-widelight";
+	padding: 7px;
+}
+.htabs li{
+	float:left;
+	margin:15px 20px 10px;
+	padding: 3px 2px 0 0;
+	overflow:hidden;
+}
+.doCookie{
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 40px;
+	background: #ddd;
+	border: 1px solid #ababab;
+	text-shadow: #efefef 0px 1px 0px;
+	color: #6d6d6d;
+	-moz-box-shadow: #ccc 0px 1px 2px;
+	box-shadow: #ccc 0px 1px 2px;
+}
+a.doCookie:hover{
+	background: #eee;
+	color: #6d6d6d;
+	text-shadow: #ccc 0px 1px 2px;
+	-moz-box-shadow: #ddd 0px -1px 0px;
+	box-shadow: #ddd 0px -1px 0px;
+}
+.selected{
+	color: #d00;
+}
+input{
+	background: none;
+	border: none;
+	font-size:12px;
+	padding:10px;
+	width:280px;
+}

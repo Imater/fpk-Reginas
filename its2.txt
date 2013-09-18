@@ -1,0 +1,1 @@
+rrr=UPDATE `h116`.`1_models` SET `model` = 'Peugeot 4007', `brand` = 'Peugeot', `cost` = '1250000', `show` = '1', `short` = '4007' WHERE `1_models`.`id` = 10;

@@ -1,0 +1,102 @@
+<html><head>
+    <title>КВН - Турнирная таблица</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="КВН">
+    <meta name="keywords" content="КВН">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    
+	<script src="jquery.js"></script>
+	<script src="jquery.easing.1.3.js" type="text/javascript"></script>
+	
+    <script src="js.js"></script>
+    <script src="table.js"></script>
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  </head>
+<body>
+<img src="images/s640x480.jpg" style="position:absolute;left:2px;top:1px;z-index:20;">
+<div id="standings"><div class="logo"></div>
+     <table cellpadding="0" cellspacing="0" class="table_standings">
+        <tbody>
+          <tr class="caption" style="height:57px;">
+          <th colspan="3" style="font-size:35px;color:#1ecdff;font-family:Verdana;font-weight:100">Открытая Московская Премьер Лига КВН 2012</th></tr>
+          <tr style="height:55px;">
+            <th class="name">Команда</th>
+            <th class="summ">Суммарны балл игры</th>
+            <th class="all_summ">Общий балл</th>
+          </tr>
+          <tr id="i1">
+            <td class="name">"Мисс Мира", Пенза</td>
+            <td class="summ"></td>
+            <td class="all_summ">10.8</td>
+          </tr>
+          <tr id="i2">
+            <td class="name">Общага, Российский Университет Кооперации</td>
+            <td class="summ"></td>
+            <td class="all_summ">10.6</td>
+          </tr>
+          <tr id="i3"><td class="name">Союз, Тюменская область</td><td class="summ"></td><td class="all_summ">10.6</td></tr>
+          <tr id="i4"><td class="name">Краснодар - Сочи, сборная Краснодарского края</td><td class="summ"></td><td class="all_summ">10.6</td></tr>
+          <tr id="i5"><td class="name">Плохая команда, сборная Краснодарского края</td><td class="summ"></td><td class="all_summ">10.4</td></tr>
+          <tr id="i6"><td class="name">Сборная Физтеха, Долгопрудный</td><td class="summ"></td><td class="all_summ">10.4</td></tr>
+          <tr id="i7"><td class="name">Сборная Евразийского Института, Ростов-на-Дону</td><td class="summ"></td><td class="all_summ">10.4</td></tr>
+          <tr id="i8"><td class="name">Самоцветы - Наше серебро, Кострома</td><td class="summ"></td><td class="all_summ">10.2</td></tr><tr><td class="name">Сборная Алтайского края, Барнаул</td><td class="summ"></td><td class="all_summ">10.2</td></tr>
+          <tr id="i9"><td class="name">ЖеСТ, ТГПИ, Таганрог</td><td class="summ"></td><td class="all_summ">9.4</td></tr>
+          <tr id="i10"><td class="name">Родина Чехова, Таганрог</td><td class="summ"></td><td class="all_summ">9.2</td></tr><tr><td class="name">Сборная ГГУ Общее дело, Москва</td><td class="summ"></td><td class="all_summ">8.4</td></tr>
+        </tbody>
+       </table>
+  </div>
+  
+   <script type="text/javascript">
+	  //column 1 - by place name
+	  $(document).keydown(function(event)
+	        {
+	        //alert(event.keyCode);
+			if(event.keyCode == 37)
+			  { 
+                $('#standings').sortTable(
+                 {
+                 onCol: 1,
+                 keepRelationships: true
+                 });
+			  }
+			if(event.keyCode == 13)
+			  { 
+ 			   	var rrnd = 1+Math.round(Math.random()*11);
+ 			   	var rrnd2 = parseFloat(10+Math.round(Math.random()*50))/10;
+ 			   	console.log(rrnd);
+ 			   	
+ 			  setTimeout(function()
+ 			    { 	
+ 			    $('#standings').sortTable(
+                 {
+                 onCol: 3,
+                 keepRelationships: true,
+                 sortDesc: true,
+                 sortType: 'numeric'
+                 });
+                },2100);
+
+ 			   	$('#i'+rrnd+' .summ').css('opacity','0').html(rrnd2).animate({"opacity":"1"},1000).animate({"padding-left":"130px"},500, 
+ 			   	    function(){
+ 			   	       
+ 			   			old = $('#i'+rrnd+' .all_summ').html();
+		 			   	newsum = Math.round((parseFloat(old) + parseFloat(rrnd2))*10)/10;
+		 			   	$('#i'+rrnd+' .all_summ').html(newsum);
+
+
+	 			   	    $('#i'+rrnd+' .summ').animate({"padding-left":"0px"},500,function(){
+ 			   	
+
+ 			   	       })});
+ 			   	
+ 			   	
+ 			   	
+                 return false;
+			  }
+			 });
+
+ </script>
+</body>
+</html>
+

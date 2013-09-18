@@ -1,0 +1,12 @@
+<tr>
+ <td>#f_name#</td>
+ <td>#f_claim_name#</td>
+ <td>#f_arm_name#</td>
+ <td>#f_creation_asetd#</td>
+ <td>#f_line#</td>
+ <td>#f_input_rate#</td>
+ <td>#f_department#</td>
+ <td>#f_instruction#</td>
+ <td>#f_order#</td>
+ <td>#f_comment#</td>
+</tr> 

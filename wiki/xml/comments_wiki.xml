@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/css" href="/fpk/wiki/themes/dobee/css/wacko.css" media="screen"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Wiki - последние комментарии</title>
+<link>/fpk/wiki/</link>
+<description>Последние комментарии Wiki </description>
+<copyright>/fpk/wiki/?page=ТурДляНовыхПользователей</copyright>
+<lastBuildDate>Mon, 07 Mar 2011 07:14:21 +0500</lastBuildDate>
+<image>
+<title>Wiki - последние комментарии</title>
+<link>/fpk/wiki/</link>
+<url>/fpk/wiki/files/wacko4.png</url>
+<width>108</width>
+<height>50</height>
+</image>
+<language>ru</language>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+</channel>
+</rss>

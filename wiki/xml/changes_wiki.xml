@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Wiki - последние изменения</title>
+<link>/fpk/wiki/</link>
+<description>Последние изменения Wiki </description>
+<copyright>/fpk/wiki/?page=ТурДляНовыхПользователей</copyright>
+<lastBuildDate>Mon, 07 Mar 2011 07:14:21 +0500</lastBuildDate>
+<image>
+<title>Wiki - последние комментарии</title>
+<link>/fpk/wiki/</link>
+<url>/fpk/wiki/files/wacko4.png</url>
+<width>108</width>
+<height>50</height>
+</image>
+<language>ru</language>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<item>
+<title>ТурДляНовыхПользователей</title>
+<link>/fpk/wiki/?page=ТурДляНовыхПользователей/show&amp;time=2011-03-07+07%3A14%3A21</link>
+<guid>/fpk/wiki/?page=ТурДляНовыхПользователей/show&amp;time=2011-03-07+07%3A14%3A21</guid>
+<pubDate>Mon, 07 Mar 2011 07:14:21 +0500</pubDate>
+<description>2011-03-07 07:14:21 пользователем JohnWezel</description>
+</item>
+<item>
+<title>ФорматированиеТекстаВWiki</title>
+<link>/fpk/wiki/?page=ФорматированиеТекстаВWiki/show&amp;time=2011-03-06+19%3A47%3A50</link>
+<guid>/fpk/wiki/?page=ФорматированиеТекстаВWiki/show&amp;time=2011-03-06+19%3A47%3A50</guid>
+<pubDate>Sun, 06 Mar 2011 19:47:50 +0500</pubDate>
+<description>2011-03-06 19:47:50 пользователем JohnWezel</description>
+</item>
+<item>
+<title>ДополнительныеСтраницы</title>
+<link>/fpk/wiki/?page=ДополнительныеСтраницы/show&amp;time=2011-03-06+19%3A47%3A37</link>
+<guid>/fpk/wiki/?page=ДополнительныеСтраницы/show&amp;time=2011-03-06+19%3A47%3A37</guid>
+<pubDate>Sun, 06 Mar 2011 19:47:37 +0500</pubDate>
+<description>2011-03-06 19:47:37 пользователем JohnWezel</description>
+</item>
+<item>
+<title>Главная</title>
+<link>/fpk/wiki/?page=Главная/show&amp;time=2011-03-06+19%3A47%3A16</link>
+<guid>/fpk/wiki/?page=Главная/show&amp;time=2011-03-06+19%3A47%3A16</guid>
+<pubDate>Sun, 06 Mar 2011 19:47:16 +0500</pubDate>
+<description>2011-03-06 19:47:16 пользователем JohnWezel</description>
+</item>
+<item>
+<title>СправкаПоПрограммеФПК</title>
+<link>/fpk/wiki/?page=СправкаПоПрограммеФПК/show&amp;time=2011-03-06+19%3A33%3A41</link>
+<guid>/fpk/wiki/?page=СправкаПоПрограммеФПК/show&amp;time=2011-03-06+19%3A33%3A41</guid>
+<pubDate>Sun, 06 Mar 2011 19:33:41 +0500</pubDate>
+<description>2011-03-06 19:33:41 пользователем JohnWezel</description>
+</item>
+<item>
+<title>Glavnajastranica</title>
+<link>/fpk/wiki/?page=Glavnajastranica/show&amp;time=2011-03-06+18%3A35%3A40</link>
+<guid>/fpk/wiki/?page=Glavnajastranica/show&amp;time=2011-03-06+18%3A35%3A40</guid>
+<pubDate>Sun, 06 Mar 2011 18:35:40 +0500</pubDate>
+<description>2011-03-06 18:35:40 пользователем JohnWezel</description>
+</item>
+</channel>
+</rss>
